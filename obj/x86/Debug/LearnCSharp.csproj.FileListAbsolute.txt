@@ -1,0 +1,7 @@
+C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\obj\x86\Debug\LearnCSharp.csproj.AssemblyReference.cache
+C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\obj\x86\Debug\LearnCSharp.csproj.CoreCompileInputs.cache
+C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\bin\Debug\ConsoleApplication.exe.config
+C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\bin\Debug\ConsoleApplication.exe
+C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\bin\Debug\ConsoleApplication.pdb
+C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\obj\x86\Debug\ConsoleApplication.pdb
