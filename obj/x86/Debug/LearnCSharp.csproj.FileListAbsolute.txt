@@ -5,3 +5,4 @@ C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\bin\Debug\ConsoleApplicati
 C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\bin\Debug\ConsoleApplication.pdb
 C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\obj\x86\Debug\ConsoleApplication.exe
 C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\tony_\source\repos\T-King-00\Learning-CSharp\obj\x86\Debug\ConsoleApplication.exe.config

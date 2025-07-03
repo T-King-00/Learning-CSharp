@@ -10,7 +10,7 @@ namespace LearnCSharp.Delegates
     class testClass
     {
         public delegate int CompareCustomers(Customers c1, Customers c2);
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             Random random = new Random();
             List<Customers> customers = new List<Customers>();

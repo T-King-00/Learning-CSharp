@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Delegates\CustomersExample.cs" />
     <Compile Include="Delegates\Delegates.cs" />
+    <Compile Include="threads\tasks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".git\config" />
@@ -86,11 +87,16 @@
     <None Include="app.config" />
     <None Include="Delegates\readme2.md" />
     <None Include="README.md" />
+    <None Include="threads\threads.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".git\objects\info\" />
     <Folder Include=".git\refs\tags\" />
     <Folder Include=".vs\LearnCSharp\v17\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="threads\example2.txt" />
+    <Content Include="threads\example.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
