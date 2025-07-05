@@ -63,15 +63,16 @@ In this folder, you will find practice files and examples related to **Threads**
 	await Task.WhenAny(tasks);  // Continues when any one task completes
 ```
 
+## Examples
 In the tasks.cs file, you will find examples demonstrating the use of `Task` and `async/await` patterns.
-First example :
+### First example :
 
 two tasks reading files and  processing the data in parallel. 
 then writing the results of the first task to finish to console screen.
 writing the status of the two tasks to console screen.
 
-2nd example :
-# Async JSON File Operations Example
+### 2nd example :
+#### Async JSON File Operations Example
 This C# console application demonstrates how to:
 read and write JSON data to a file using asynchronous methods.
 steps:
