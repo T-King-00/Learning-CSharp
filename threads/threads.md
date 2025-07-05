@@ -64,9 +64,28 @@ In this folder, you will find practice files and examples related to **Threads**
 ```
 
 In the tasks.cs file, you will find examples demonstrating the use of `Task` and `async/await` patterns.
+First example :
+
 two tasks reading files and  processing the data in parallel. 
 then writing the results of the first task to finish to console screen.
 writing the status of the two tasks to console screen.
+
+2nd example :
+# Async JSON File Operations Example
+This C# console application demonstrates how to:
+read and write JSON data to a file using asynchronous methods.
+steps:
+- Create a directory if it doesn't exist.
+- Define a list of `Account` objects with `Name` and `Balance`.
+- Serialize the list to JSON and **asynchronously save** it to a file.
+- **Asynchronously read** the JSON data from the file.
+- Deserialize the JSON back into a list of accounts.
+- Print account details to the console.
+
+The code uses `async` and `await` to perform file I/O operations without blocking the main thread, improving responsiveness and scalability.
+if the data was more larger , without async and await the application would be blocked until the file operations are completed.
+```csharp
+
 
 ---
 Thread vs Task

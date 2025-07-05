@@ -31,7 +31,7 @@ namespace LearnCSharp.threads
 
 
         //async task 
-        public static async Task Main()
+        public static async Task Main2()
         {
 
             string filePath = "C:\\Users\\tony_\\source\\repos\\T-King-00\\Learning-CSharp\\threads\\example.txt";
@@ -102,7 +102,7 @@ namespace LearnCSharp.threads
 
         }
 
-        public static async Task Main2()
+        public static async Task Main3()
         {
 
             Console.WriteLine("this is main 2");
