@@ -83,13 +83,20 @@ steps:
 - Deserialize the JSON back into a list of accounts.
 - Print account details to the console.
 
+### 3rd example :
+#### Async JSON Object Deserialization and HTTP Requests  Example
+In this example we learn how to access web resources asynchronously using the HttpClient class.  and how to make asynchronous API calls to retrieve data from a REST API and process the response.
+
+The HttpClient class in C# is designed for asynchronous use, allowing nonblocking calls to web resources.
+The HttpClient class includes asynchronous methods like GetAsync, PostAsync, PutAsync, DeleteAsync, and SendAsync.
+A single instance of HttpClient should be reused for multiple requests to improve performance and resource management.
+
+
+
 The code uses `async` and `await` to perform file I/O operations without blocking the main thread, improving responsiveness and scalability.
 if the data was more larger , without async and await the application would be blocked until the file operations are completed.
-```csharp
-
-
----
-Thread vs Task
+```
+Thread vs Task :
 
 | Feature            | Thread                                      | Task                                                  |
 |--------------------|----------------------------------------------|--------------------------------------------------------|
@@ -103,4 +110,15 @@ Thread vs Task
 | **Error Handling** | Try/catch within the thread's method         | Structured via `await`, `.ContinueWith`, etc.         |
 | **Ease of Use**    | More control but more complexity             | Easier to write and maintain asynchronous code         |
 
+```
 
+## Accessing web resources by usage of asynchronous api calls using  HTTPClient:
+
+httpclient is a class that allows you to make asynchronous HTTP requests. It is part of the System.Net.Http namespace and provides methods for sending HTTP requests and receiving HTTP responses.
+#### methods inide httpclient class:
+GetAsync:	Sends a GET request to the specified URI and returns the response as a string.
+PostAsync:	Sends a POST request to the specified URI with the given content and returns the response as a string.
+PutAsync:	PUT method completely replaces whatever currently exists at the target URL with something else. With this method, you can create a new resource or overwrite an existing one given you know the exact Request-URI , Sends a PUT request to the specified URI with the given content and returns the response as a string.
+
+DeleteAsync: Sends a DELETE request to the specified URI and returns the response as a string.
+SendAsync:	Sends an HTTP request with the specified HttpRequestMessage and returns the response as a string.

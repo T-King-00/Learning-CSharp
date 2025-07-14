@@ -16,7 +16,7 @@ namespace LearnCSharp.threads
             public decimal Balance { get; set; }
         }
 
-        public static async Task Main(string[] args)
+        public static async Task Main0(string[] args)
         {
             // This example demonstrates how to create a directory, write a list of accounts to a JSON file, and read it back.
 
