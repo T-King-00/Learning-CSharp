@@ -91,10 +91,9 @@ The HttpClient class in C# is designed for asynchronous use, allowing nonblockin
 The HttpClient class includes asynchronous methods like GetAsync, PostAsync, PutAsync, DeleteAsync, and SendAsync.
 A single instance of HttpClient should be reused for multiple requests to improve performance and resource management.
 
-
-
 The code uses `async` and `await` to perform file I/O operations without blocking the main thread, improving responsiveness and scalability.
 if the data was more larger , without async and await the application would be blocked until the file operations are completed.
+
 ```
 Thread vs Task :
 

@@ -1,9 +1,11 @@
 # Learning-C-
-Every Week , new topic 
+###Every Week , new topic 
 
-week one : Delegates
+## Week one :-  Delegates
 
-week two : Tasks and threads differences
+## Week two : -  Tasks and threads differences
+
+## Week three :-  Data parallelism while using Task Parallel Library .
 
 
 

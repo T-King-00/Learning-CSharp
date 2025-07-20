@@ -56,8 +56,8 @@
     <Folder Include=".vs\LearnCSharp\v17\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="threads\example2.txt" />
-    <Content Include="threads\example.txt" />
+    <Content Include="Threads-WEEK2\example2.txt" />
+    <Content Include="Threads-WEEK2\example.txt" />
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />

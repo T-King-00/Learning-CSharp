@@ -11,7 +11,7 @@ namespace LearnCSharp.threads
     internal class taskEx3
     {
 
-        public static async Task Main(string[] args)
+        public static async Task Main0(string[] args)
         {
             using (HttpClient client = new HttpClient())
             {
