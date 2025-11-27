@@ -35,3 +35,6 @@ Each task fetches data content from a URL and processes ,displays the result.
 in case of usage of `Task.WhenAll` , the code fetches data from multiple URLs concurrently and processes the results and after all tasks and sites data are fetched , data is displayed.
 in case of usage of  `Task.WhenAny`,the code fetches data from multiple URLs concurrently processes the results . Once one task finishes , data of this site is displayed.
 
+
+##### for more resources about pitfalls of using Task parallel processing:
+- https://learn.microsoft.com/en-us/training/modules/implement-asynchronous-tasks/6-manage-asynchronous-parallel-tasks

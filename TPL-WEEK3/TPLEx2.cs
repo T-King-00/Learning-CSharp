@@ -11,7 +11,7 @@ namespace LearnCSharp.TPL_WEEK3
     internal class TPLEx2
     {
 
-        public static async Task Main(string[] args)
+        public static async Task Main0(string[] args)
         {
             var urlS = new List<string>
             {
