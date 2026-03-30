@@ -5,7 +5,7 @@ namespace LearnCSharp.Delegates;
 
 public class program
 {
-    public static void Main(string[] args)
+    public static void Main1(string[] args)
     {
         Flight flight = new Flight();
         
