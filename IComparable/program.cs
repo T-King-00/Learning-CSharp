@@ -4,7 +4,7 @@ namespace LearnCSharp.IComparable;
 
 public class program
 {
-    public static void Main(string[] args)
+    public static void Main00(string[] args)
     {
         Person p1 = new Person();
         p1.age=24;
@@ -24,6 +24,8 @@ public class program
         int result2 = p3.CompareTo(p1);
         printConsoleMessages(p3, p1, result2);
 
+
+    
 
 
     }
