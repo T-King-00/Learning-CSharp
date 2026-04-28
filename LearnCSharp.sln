@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockTesting", "MockTesting\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entityf2", "entityf2\entityf2.csproj", "{E14AAE33-C3A2-43CA-9DD8-D20B01E70C35}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{C4B54611-8481-4CB0-8551-2C2BEACDE58B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -39,5 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {297ABCB3-F15F-4C13-8AC3-EB2060238BA4}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0F45581-16B7-41B3-ABD5-70AE96105B67} = {C4B54611-8481-4CB0-8551-2C2BEACDE58B}
+		{E14AAE33-C3A2-43CA-9DD8-D20B01E70C35} = {C4B54611-8481-4CB0-8551-2C2BEACDE58B}
 	EndGlobalSection
 EndGlobal

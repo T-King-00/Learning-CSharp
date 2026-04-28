@@ -4,7 +4,7 @@ namespace LearnCSharp.interfaces;
 
 public class Program
 {
-    public static void Main0011(string[] args)
+    public static void Main0111(string[] args)
     {
         ElectricScooter electricScooter = new ElectricScooter(new(2026,1,1),100,4000);
         electricScooter.WriteValues();

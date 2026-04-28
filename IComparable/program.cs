@@ -4,7 +4,7 @@ namespace LearnCSharp.IComparable;
 
 public class program
 {
-    public static void Main00(string[] args)
+    public static void Main0101(string[] args)
     {
         Person p1 = new Person();
         p1.age=24;

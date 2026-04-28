@@ -9,7 +9,7 @@ namespace LearnCSharp.Records;
 
 public class program
 {
-    public static void Main(string[] args)
+    public static void Main111111(string[] args)
     {
 
         Person Person1AsARecord = new Person("tony", 23);
