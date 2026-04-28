@@ -54,6 +54,7 @@
     <Folder Include=".git\objects\info\" />
     <Folder Include=".git\refs\tags\" />
     <Folder Include=".vs\LearnCSharp\v17\" />
+    <Folder Include="linq\NewDirectory1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Threads-WEEK2\example2.txt" />

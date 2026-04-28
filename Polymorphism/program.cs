@@ -5,7 +5,7 @@ namespace LearnCSharp.Polymorphism;
 
 public class program
 {
-    public static void Main(string[] args)
+    public static void Main0010(string[] args)
     {
         List<Appliance> appliances = new List<Appliance>();
         appliances.Add(new WashingMachine("123456789", 3));
