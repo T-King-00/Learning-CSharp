@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LearnCSharp.Polymorphism;
 
-public class program
+public class Program
 {
     public static void Main0010(string[] args)
     {

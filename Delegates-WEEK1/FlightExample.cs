@@ -3,7 +3,7 @@ using System.Runtime.InteropServices.JavaScript;
 
 namespace LearnCSharp.Delegates;
 
-public class program
+public class Program
 {
     public static void Main1(string[] args)
     {
@@ -11,7 +11,7 @@ public class program
         
       
         //as flight passenger 
-        passenger pass1 = new passenger("mike");
+        Passenger pass1 = new Passenger("mike");
         //we add the method that gonna subscribe to the event.
         flight.OnFlightStatusChanged +=  pass1.subscirbePassenger;
 
@@ -23,12 +23,12 @@ public class program
     
 }
 
-class passenger
+class Passenger
 {
     private string name;
     private Flight flightbooked;
 
-    public passenger(string name)
+    public Passenger(string name)
     {
         this.name = name;
     }

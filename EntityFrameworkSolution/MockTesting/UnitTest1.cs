@@ -1,4 +1,4 @@
-﻿using EntityFramework;
+using EntityFramework;
 using EntityFramework.db;
 using Moq;
 using Xunit;

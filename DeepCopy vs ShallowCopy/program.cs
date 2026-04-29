@@ -2,7 +2,7 @@
 
 namespace LearnCSharp.DeepCopy_vs_ShallowCopy;
 
-public class program
+public class Program
 {
     public static void Main0000(string[] args)
     {

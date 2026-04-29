@@ -2,7 +2,7 @@
 
 namespace LearnCSharp.IComparable;
 
-public class program
+public class Program
 {
     public static void Main0101(string[] args)
     {

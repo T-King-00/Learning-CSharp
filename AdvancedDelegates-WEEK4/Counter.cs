@@ -44,7 +44,7 @@ public class Counter:IDisposable
 
 }
 
-public class program
+public class Program
 {
     public static void Counter_ThresholdReached(object? sender,ThresholdReachedEventArgs e)
     {

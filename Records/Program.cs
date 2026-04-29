@@ -7,7 +7,7 @@ namespace LearnCSharp.Records;
 
 
 
-public class program
+public class Program
 {
     public static void Main111111(string[] args)
     {
