@@ -1,14 +1,3 @@
-# Learning-C-
-## Topics learned nn this Repo so far  
-
-
-### 4)  IComparable Interface
-
-
-
-
----
-
 # **Learning C# – Concepts Covered in This Repository**
 
 This repository documents my learning journey through C# and .NET.  
@@ -121,6 +110,26 @@ Inheritance/
 ## **🎯 Purpose**
 This repo is a structured learning space where each concept is isolated into its own folder, making it easy to focus, test, and revisit topics as needed.
 
+## 🛠 Tech Stack
+- **Runtime:** .NET 9.0
+- **Language:** C# 13.0
+- **IDE:** JetBrains Rider / Visual Studio 2022
+
+## 🚀 Getting Started
+```powershell
+# Get the code
+git clone https://github.com/T-King-00/Learning-CSharp.git
+cd Learning-CSharp
+
+# Restore and build
+dotnet restore
+dotnet build
+
+# Run the project
+dotnet run
+```
+
+> **Note:** This project uses multiple entry points. Check `.csproj` for the active `StartupObject` or toggle `Main` methods as needed.
 
 
 
