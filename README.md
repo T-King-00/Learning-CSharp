@@ -112,7 +112,7 @@ This repo is a structured learning space where each concept is isolated into its
 
 ## 🛠 Tech Stack
 - **Runtime:** .NET 9.0
-- **Language:** C# 13.0
+- **Language:** C# 14.0
 - **IDE:** JetBrains Rider / Visual Studio 2022
 
 ## 🚀 Getting Started
