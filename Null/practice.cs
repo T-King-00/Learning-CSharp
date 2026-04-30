@@ -5,7 +5,7 @@ namespace LearnCSharp.Null;
 // ! unary postfix operator = > null-forgiving, or null-suppression
 public class practice
 {
-    public static void Main(string[] args)
+    public static void Main0(string[] args)
     {
         try
         {
